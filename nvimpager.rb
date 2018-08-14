@@ -6,6 +6,7 @@ class Nvimpager < Formula
   head "https://github.com/nevd/nvimpager.git"
   depends_on "pandoc" => :build
   depends_on "neovim"
+  depends_on "gnu-sed"
 
   def install
     system "make", "PREFIX=#{prefix}", "install"
