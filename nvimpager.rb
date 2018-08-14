@@ -1,8 +1,8 @@
 class Nvimpager < Formula
   desc "Use nvim as a pager"
   homepage "https://github.com/lucc/nvimpager"
-  url "https://github.com/nevd/nvimpager/archive/0.5.1.tar.gz"
-  sha256 "0f2fafc065e480112f34836a1d5e77312d399713330603b611f2ce806faf1b67"
+  url "https://github.com/lucc/nvimpager/archive/v0.5.1.tar.gz"
+  sha256 "df887db010daf7d72b83c31d045004f8"
   head "https://github.com/nevd/nvimpager.git"
   depends_on "pandoc" => :build
   depends_on "neovim"
